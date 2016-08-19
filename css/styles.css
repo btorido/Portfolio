@@ -1,0 +1,123 @@
+* {
+     background-color: rgb(34, 34, 35);
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(236, 236, 231);
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 900px;
+    margin: auto;
+  }
+}
+
+.header_logo {
+  width: 20%;
+  padding-top: 1em;
+  padding-bottom: 0.8em;
+}
+
+.header_name {
+  width: 80%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(83, 86, 90);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: right;
+  padding-right: 20px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+
+.coding_figure {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.works_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.app_container {
+  -webkit-box-shadow: 11px 10px 64px -6px rgba(37,72,102,0.61);
+  -moz-box-shadow: 11px 10px 64px -6px rgba(37,72,102,0.61);
+  box-shadow: 11px 10px 64px -6px rgba(37,72,102,0.61);
+  border-bottom: 1em;
+}
+
+.app_logo {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .app_logo {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.app_title {
+  text-align: center;
+}
+
+.app_link {
+  text-align: center;
+  font-style: italic;
+}
+
+.social_container {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  padding-top: 1em;
+}
+
+footer {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.fa {
+  font-size: 3em;
+  padding: 0.5em;
+}
